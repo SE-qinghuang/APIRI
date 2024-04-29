@@ -47,4 +47,4 @@ def run_APIRI(data_path,outpath_1,outpath_2,outpath_3):
 
 if __name__ == "__main__":
     # input—data, module-1's output, module-2's output, module-3's output
-    run_APIRI("","","","")
+    run_APIRI('../../Data/java_data.csv',"../../Output/module1_res.csv","../../Output/module2_res.csv","../../Output/module3_res.csv")
