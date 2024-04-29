@@ -7,10 +7,10 @@
 ## Quick Start
 
 ### Configure Environment
--`pip install-r requirements.txt`
+`pip install-r requirements.txt`
 
 ### Fill in the OpenAI key
--To ensure efficient execution of the code, we recommend filling in different keys for each unit.
+To ensure efficient execution of the code, we recommend filling in different keys for each unit.
 
 ### Running
--Run `main.py` to execute the AI chain.
+Run `main.py` to execute the AI chain.
