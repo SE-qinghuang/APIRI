@@ -5,11 +5,11 @@
 - Data_Link: [APIRI_Experimental_Data](https://drive.google.com/file/d/11l45PtZzabQCmOVBt91JZ35MY7F1q-5e/view?usp=sharing)
 ## Quick Start
 
-### Configure Environment
+### 1 Configure Environment
 `pip install-r requirements.txt`
 
-### Fill in the OpenAI key
+### 2 Fill in the OpenAI key
 To ensure efficient execution of the code, we recommend filling in different keys for each unit.
 
-### Running
+### 3 Running
 Run `main.py` to execute the AI chain.
