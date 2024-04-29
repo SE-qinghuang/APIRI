@@ -40,11 +40,11 @@ def aggregation(res_1_list, res_2_list, res_3_list):
 
 def load_knowledge(API_Knowledge):
     k4r1 = API_Knowledge[0]
-    k4r2 = API_Knowledge[0] + '\n' + API_Knowledge[1]
+    k4r2 = '\n'.join(API_Knowledge[0], API_Knowledge[1])
     k4r3_1 = API_Knowledge[2]
     k4r3_2 = API_Knowledge[3]
-    k4r4 = API_Knowledge[0] + '\n' + API_Knowledge[4]
-    k4r5 = API_Knowledge[0] + '\n' + API_Knowledge[5]
+    k4r4 = '\n'.join(API_Knowledge[0], API_Knowledge[4])
+    k4r5 = '\n'.join(API_Knowledge[0], API_Knowledge[5])
     k4r6 = API_Knowledge[6]
     k4r7 = API_Knowledge[7]
     return (k4r1,k4r2,k4r3_1,k4r3_2,k4r4,k4r5,k4r6,k4r7)
