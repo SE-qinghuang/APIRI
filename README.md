@@ -14,4 +14,4 @@
 
 ### Running
 
-Run `mian.py` to execute the AI chain.
+Run `main.py` to execute the AI chain.
