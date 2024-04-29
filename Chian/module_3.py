@@ -41,8 +41,8 @@ def aggregation(res_1_list, res_2_list, res_3_list):
 def load_knowledge(API_Knowledge):
     k4r1 = API_Knowledge[0]
     k4r2 = API_Knowledge[0] + '\n' + API_Knowledge[1]
-    k4r3_1 = API_Knowledge[0] + '\n' + API_Knowledge[2]
-    k4r3_2 = API_Knowledge[0] + '\n' + API_Knowledge[3]
+    k4r3_1 = API_Knowledge[2]
+    k4r3_2 = API_Knowledge[3]
     k4r4 = API_Knowledge[0] + '\n' + API_Knowledge[4]
     k4r5 = API_Knowledge[0] + '\n' + API_Knowledge[5]
     k4r6 = API_Knowledge[6]
@@ -77,8 +77,8 @@ class Module_3:
         yn_content = {
             "yn_similar": "Q: Based on the API knowledge above, do {API_1} and {API_2} have similar usage?",
             "yn_difference": "Q: Based on the API knowledge above, do {API_1} and {API_2} have similar usage but different behavior?",
-            "yn_replace_1": "Q: Do {API_1} and {API_2} have similar usage, and can {API_1} be used in the above unavailable scenarios of {API_2}?",
-            "yn_replace_2": "Q: Do {API_2} and {API_1} have similar usage, and can {API_2} be used in the above unavailable scenarios of {API_1}?",
+            "yn_replace_1": "Q: Can {API_1} be used in the above unavailable scenarios of {API_2}?",
+            "yn_replace_2": "Q: Can {API_2} be used in the above unavailable scenarios of {API_1}?",
             "yn_efficiency": "Q: Based on the API knowledge above, do {API_1} and {API_2} have similar usage and efficiency comparison?",
             "yn_logic": "Q: Based on the API knowledge above, is there a logical order when using {API_1} and {API_2}?",
             "yn_collaboration": "Q: Based on the API knowledge above, is there a task scenario that requires {API_1} and {API_2} to cooperate?",
@@ -87,8 +87,8 @@ class Module_3:
         tf_content = {
         "tf_similar": "Claim: Based on the API Knowledge above, {API_1} and {API_2} have similar usage.",
         "tf_difference": "Claim: Based on the API Knowledge above, {API_1} and {API_2} have similar usage but different behavior.",
-        "tf_replace_1": "Claim: {API_1} and {API_2} have similar usage, and {API_1} can be used in the above unavailable scenarios of {API_2}.",
-        "tf_replace_2": "Claim: {API_2} and {API_1} have similar usage, and {API_2} can be used in the above unavailable scenarios of {API_1}.",
+        "tf_replace_1": "Claim: {API_1} can be used in the above unavailable scenarios of {API_2}.",
+        "tf_replace_2": "Claim: {API_2} can be used in the above unavailable scenarios of {API_1}.",
         "tf_efficiency": "Claim: Based on the API knowledge above, {API_1} and {API_2} have similar usage and efficiency comparison.",
         "tf_logic": "Claim: Based on the API knowledge above, there is a logical order when using {API_1} and {API_2}.",
         "tf_collaboration": "Claim: Based on the API knowledge above, there is a task scenario that requires {API_1} and {API_2} to cooperate.",
