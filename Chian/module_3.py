@@ -217,7 +217,7 @@ def execute_module_3(API_pairs_knowledge):
         yn_res = modify_lists(list(yn_result.values()))
         tf_res = modify_lists(list(tf_result.values()))
 
-        mul_input = "API Knowledge: \n" + "\n".join(API_Knowledge)
+        mul_input = "".join(["API Knowledge: \n","\n".join(API_Knowledge)])
         mul_message = load_message(module_instance.mul_instructs,module_instance.mul_examples,mul_input)
         mul_res = module_instance.mul_decider(mul_message)
 
