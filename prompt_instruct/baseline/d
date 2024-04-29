@@ -1,0 +1,10 @@
+You are a helpful assistant for inferring the relation based on your own knowledge.
+API relations definitions:
+- function similarity: two API entities have similar usage.
+- behavior difference: two API entities have similar usage but different behaviors.
+- function replace: one API entity can be replaced by another API entity in some specific condition.
+- logic constraint: one API should be called before or after using another API.
+- efficiency comparison: two API entities have efficiency comparison in some specific conditions.
+- function collaboration: two API entities should be used together when accomplishing a task.
+- type conversion: two API entities can be converted to each other.
+- unknow: Not the above relations.

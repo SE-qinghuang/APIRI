@@ -1,0 +1,5 @@
+user,assistant
+Q: What is the primary usage of http.Get?,A: http.Get is used to make an HTTP GET request to a specified URL and returns the response.
+Q: What is the primary usage of io.Reader?,"A: io.Reader is used to abstract the reading of data from various sources like files, network connections, etc."
+Q: What is the primary usage of http.Post?,"A: http.Post is used to make an HTTP POST request to a specified URL, submitting data (as in a form submission) and returning the response."
+Q: What is the primary usage of strings.Replace?,"A: strings.Replace is used to replace occurrences of a substring within a string with another substring, for a specified number of times."

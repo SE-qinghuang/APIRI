@@ -1,0 +1,17 @@
+user,assistant
+"API Knowledge:
+kotlin.collections.List.indexOf is used to find the index of the first occurrence of an element in the list.
+kotlin.collections.List.lastIndexOf is used to find the index of the last occurrence of an element in the list.
+Claim: Based on the API Knowledge above, kotlin.collections.List.indexOf and kotlin.collections.List.lastIndexOf have similar usage.",Answer: Correct
+"API Knowledge:
+kotlin.text.StringBuilder.append is used to append the string representation of the specified object to this sequence.
+kotlin.text.StringBuilder.appendLine is used to append the string representation of the specified object followed by a line terminator to this sequence.
+Claim: Based on the API Knowledge above, kotlin.text.StringBuilder.append and kotlin.text.StringBuilder.appendLine have similar usage.",Answer: Correct
+"API Knowledge:
+kotlin.system.exitProcess() in Kotlin is used to terminate the current process and return a specified exit code to the operating system.
+kotlin.collections.List.indexOf() in Kotlin is used to find the index of the first occurrence of a specified element in the list, or -1 if the element is not present.
+Claim: Based on the API Knowledge above, kotlin.system.exitProcess() and kotlin.collections.List.indexOf() have similar usage.",Answer: Incorrect
+"API Knowledge:
+kotlin.io.File.readBytes is used to read the file content as a byte array.
+kotlin.io.File.readText is used to read the file content as a string.
+Claim: Based on the API Knowledge above, kotlin.io.File.readBytes and kotlin.io.File.readText have similar usage.",Answer: Correct

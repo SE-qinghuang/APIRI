@@ -1,0 +1,5 @@
+user,assistant
+Q: When should i use http.Get?,"A: The available scenarios of http.Get: when you need to retrieve data from a specific URL using the GET method, such as requesting a web page or API endpoint."
+Q: When should i use io.Reader?,"A: The available scenarios of io.Reader: when you need to read data from a source (e.g., file, network connection, buffer) in a generic way, allowing for flexible data input handling."
+Q: When should i use http.Post?,"A: The available scenarios of http.Post: when you need to send data to a specific URL using the POST method, such as submitting form data or sending JSON to a server for processing."
+Q: When should i use strings.Replace?,"A: The available scenarios of strings.Replace: when you need to modify a string by replacing all or some occurrences of a substring with another substring, such as formatting or cleaning up text data."

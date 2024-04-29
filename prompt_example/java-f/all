@@ -1,0 +1,35 @@
+函数相似性（Function Similarity）
+java.util.ArrayList.add() 与 java.util.LinkedList.add()
+java.lang.String.substring() 与 java.lang.StringBuilder.substring()
+java.util.HashSet.add() 与 java.util.LinkedList.get()
+java.util.HashMap.put() 与 java.util.Hashtable.put()
+行为差异（Behavior Difference）
+java.util.ArrayList.get() 与 java.util.LinkedList.get()
+java.util.Iterator.remove() 与 java.util.ListIterator.add()
+java.lang.String.concat() 与 java.lang.System.arraycopy()
+java.util.HashMap.put() 与 java.util.concurrent.ConcurrentHashMap.put()
+函数替换（Function Replace）
+java.lang.Math.min() 与 java.lang.Integer.min()
+java.util.Vector.addElement() 与 java.util.LinkedList.get()
+java.util.Hashtable 与 java.util.HashMap
+java.lang.System.arraycopy() 与 java.util.HashMap.put()
+效率比较（Efficiency Comparison）
+java.util.ArrayList 与 java.util.LinkedList
+java.util.HashMap 与 java.util.HashMap.put()
+java.lang.String 与 java.util.LinkedList
+java.util.stream.Stream.forEach 与 java.util.Collection.forEach
+逻辑约束（Logic Constraint）
+java.io.OutputStream.write() 与 java.io.OutputStream.close()
+java.util.Iterator.next() 与 java.util.HashMap.put()
+java.util.zip.ZipOutputStream.putNextEntry() 与 java.util.zip.ZipOutputStream.write()
+java.sql.Connection.prepareStatement() 与 java.sql.Connection.commit()
+函数协作（Function Collaboration）
+java.util.Map.put() 与 java.util.Map.get()
+java.io.BufferedWriter.write() 与 java.io.OutputStream.write()
+java.util.zip.ZipOutputStream.putNextEntry() 与 java.util.List.toArray()
+java.net.Socket.connect() 与 java.net.Socket.getInputStream()
+类型转换（Type Conversion）
+java.util.Arrays 与 java.util.List
+java.util.Arrays.asList() 与 java.util.List.toArray()
+java.lang.Integer 与 java.lang.String
+java.lang.Byte.valueOf() 与 java.lang.Byte.byteValue()

@@ -1,0 +1,5 @@
+user,assistant
+"Natural language text: for collections as return types always return an empty collection instead of a null, unless you need a third state of ""not present"". Kotlin has helper functions such as emptyList() or emptySet() to create these empty values.",API Non-FQNs: emptyList(); emptySet()
+"Natural language text: helper functions like filterNotNull() which remove nulls from collections, or listOfNotNull() for returning a zero or single item list from a possibly null value.",API Non-FQNs: filterNotNull(); listOfNotNull()
+"Natural language text: See, we don't have any return type anymore. In the end just simply call readData() function in your onCreate function and pass an instance of the MyCallback interface as an argument like this:",API Non-FQNs: None
+"Natural language text: when using methods which return a nullable value for which you have a default or alternative, use the Elvis operator to provide a default value. In the case of a Map use the getOrElse() which allows a default value to be generated instead of Map method get() which returns a nullable value. Same for getOrPut()",API Non-FQNs: getOrElse(); get(); getOrPut()

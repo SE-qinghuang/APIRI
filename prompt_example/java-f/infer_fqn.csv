@@ -1,0 +1,9 @@
+user,assistant
+"Natural Language Text: FileOutputStream is to write primitive types of data, while FileWriter is to write character-oriented data.
+Non-FQNs: FileOutputStream; FileWriter",FQNs: java.io.FileOutputStream; java.io.FileWriter
+"Natural language Text: In MainActivity.java file you can add this line within your oncreate() method.
+Non-FQNs: MainActivity.java; oncreate()",FQNs: None
+"Natural language Text: String.contentEquals() compares the content of the String with the content of any CharSequence (available since Java 1.5).
+Non-FQNs: String.contentEquals(); String; CharSequence",FQNs: java.lang.String.contentEquals(); java.lang.String; java.lang.CharSequence
+"Natural language Text: See also: JavaDoc System.nanoTime() and JavaDoc System.currentTimeMillis() for more info.
+Non-FQNs: System.nanoTime(); System.currentTimeMillis()",FQNs: java.lang.System.nanoTime(); java.lang.System.currentTimeMillis()

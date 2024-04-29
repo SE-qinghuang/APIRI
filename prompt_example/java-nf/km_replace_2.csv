@@ -1,0 +1,5 @@
+user,assistant
+Q: When should I not use javax.servlet.http.HttpServletRequest.getParameter()?,A: The unavailable scenarios of javax.servlet.http.HttpServletRequest.getParameter(): need to handle uploaded files or access request body data in a format other than form parameters.
+Q: When should I not use javax.persistence.EntityManager.merge()?,A: The unavailable scenarios of javax.persistence.EntityManager.merge(): want to persist a new entity instance to the database. merge() is intended for updating an existing entity.
+Q: When should I not use javax.mail.Session.getDefaultInstance()?,"A: The unavailable scenarios of javax.mail.Session.getDefaultInstance(): need to create a new, unique Session object with different mail configurations. getDefaultInstance() might return a previously established session."
+Q: When should I not use javax.xml.transform.Transformer.transform()?,"A: The unavailable scenarios of javax.xml.transform.Transformer.transform(): need to parse XML. Transformer.transform() is for transforming XML from one format to another using XSLT, not for parsing."

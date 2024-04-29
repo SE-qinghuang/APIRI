@@ -1,0 +1,5 @@
+user,assistant
+Q: What is the primary usage of javax.servlet.http.HttpServletRequest.getSession()?,"A: javax.servlet.http.HttpServletRequest.getSession() is used to retrieve the current session associated with the request, or create a new session if one does not exist."
+Q: What is the primary usage of javax.persistence.Query.getResultList()?,A: javax.persistence.Query.getResultList() is used to execute a query and return the results as a list of entities or values.
+Q: What is the primary usage of javax.mail.Transport.send()?,A: javax.mail.Transport.send() is used to send a message via email to its designated recipients.
+Q: What is the primary usage of javax.xml.parsers.DocumentBuilder.parse()?,A: javax.xml.parsers.DocumentBuilder.parse() is used to parse an XML document and return a new DOM Document object.

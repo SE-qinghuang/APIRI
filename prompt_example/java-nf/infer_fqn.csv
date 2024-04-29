@@ -1,0 +1,9 @@
+user,assistant
+"Natural language text: In practice, the javax.xml.xpath.XPathFactory.newInstance() method is often preferable to javax.xml.parsers.DocumentBuilderFactory.newInstance() for creating and configuring a new instance of an XPath factory.
+API Non-FQNs: None",FQNs: None
+"Natural language text: HttpServletResponse.setContentType() sets the content type of the response being sent to the client, which is crucial for web applications (available since Servlet 2.4).
+API Non-FQNs: HttpServletResponse.setContentType(); Servlet",FQNs: javax.servlet.http.HttpServletResponse.setContentType; javax.servlet
+"Natural language text: The doFilter() method must return void, so you couldn't directly return a value like you were planning to anyway.
+API Non-FQNs: doFilter()",FQNs: javax.servlet.Filter.doFilter()
+"Natural language text: See also: JavaDoc Session.createConsumer() and JavaDoc MessageProducer.send() for more messaging model info.
+API Non-FQNs: Session.createConsumer(); MessageProducer.send()",FQNs: javax.jms.Session.createConsumer(); javax.jms.MessageProducer.send()

@@ -1,0 +1,35 @@
+函数相似性（Function Similarity）
+javax.xml.parsers.DocumentBuilderFactory.newInstance() 与 javax.xml.xpath.XPathFactory.newInstance()
+javax.net.ssl.SSLServerSocketFactory.createServerSocket() 与 javax.net.ServerSocketFactory.createServerSocket()
+javax.imageio.ImageIO.read() 与 javax.servlet.ServletContext.log()
+javax.crypto.Cipher.getInstance() 与 javax.crypto.KeyGenerator.getInstance()
+行为差异（Behavior Difference）
+javax.xml.transform.sax.SAXTransformerFactory.newTransformerHandler() 与 javax.xml.transform.dom.DOMTransformerFactory.newTransformer()
+javax.naming.InitialContext.lookup() 与 javax.naming.directory.DirContext.search()
+javax.sql.DataSource.getConnection() 与 javax.servlet.ServletContext.log()
+
+函数替换（Function Replace）
+javax.servlet.http.Cookie.setMaxAge() 与 javax.servlet.http.HttpSession.setMaxInactiveInterval()
+javax.xml.bind.JAXB.marshal() 与 javax.xml.xpath.XPath.evaluate()
+javax.sql.DataSource.getConnection() 与 java.sql.DriverManager.getConnection()
+javax.jms.QueueSender.send() 与 javax.mail.Transport.send()
+效率比较（Efficiency Comparison）
+javax.xml.parsers.DocumentBuilder.parse() 与 javax.xml.xpath.XPath.evaluate()
+javax.naming.InitialContext.lookup() 与 javax.mail.Transport.send()
+javax.mail.Transport.send() 与 javax.naming.directory.InitialDirContext.lookup()
+javax.crypto.Cipher.init() 与 javax.crypto.Mac.init()
+逻辑约束（Logic Constraint）
+javax.servlet.Filter.doFilter() 与 javax.servlet.FilterChain.doFilter()
+javax.jms.Connection.start() 与 javax.xml.parsers.DocumentBuilderFactory.newDocumentBuilder()
+javax.xml.parsers.DocumentBuilder.parse() 与 javax.jms.Session.createConsumer()
+javax.mail.Session.getDefaultInstance() 与 javax.mail.Transport.send()
+函数协作（Function Collaboration）
+javax.servlet.ServletRequest.getAttribute() 与 javax.servlet.ServletRequest.setAttribute()
+javax.sql.DataSource.getConnection() 与 javax.naming.directory.DirContext.unbind()
+javax.naming.directory.DirContext.bind() 与 java.sql.Connection.close()
+javax.jms.Session.createProducer() 与 javax.jms.MessageProducer.send()
+类型转换（Type Conversion）
+javax.xml.datatype.XMLGregorianCalendar 与 java.util.GregorianCalendar
+javax.sql.rowset.CachedRowSet.setCommand() 与 javax.sql.RowSet
+java.sql.ResultSet 与 javax.sql.rowset.JdbcRowSet
+javax.servlet.http.HttpServletRequest.getParameter() 与 javax.sql.rowset.serial.SerialBlob

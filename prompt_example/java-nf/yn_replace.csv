@@ -1,0 +1,17 @@
+user,assistant
+"API Knowledge:
+The available scenarios of javax.servlet.http.Cookie.setMaxAge(): need to control how long cookies should persist on the client side.
+The unavailable scenarios of javax.servlet.http.HttpSession.setMaxInactiveInterval(): need to specify a lifespan for a cookie on the client side, as this method is for session management on the server side.
+Q: Can javax.servlet.http.Cookie.setMaxAge() be used in the above unavailable scenarios of javax.servlet.http.HttpSession.setMaxInactiveInterval()?",A: Yes
+"API Knowledge:
+The available scenarios of javax.xml.bind.JAXB.marshal(): want to serialize a Java object into XML for storage or transmission.
+The unavailable scenarios of javax.xml.xpath.XPath.evaluate(): need to serialize Java objects into XML; this method is for querying XML documents.
+Q: Can javax.xml.bind.JAXB.marshal() be used in the above unavailable scenarios of javax.xml.xpath.XPath.evaluate()?",A: No
+"API Knowledge:
+The available scenarios of javax.sql.DataSource.getConnection(): need a database connection that is managed for efficient reuse.
+The unavailable scenarios of java.sql.DriverManager.getConnection(): need a connection from a connection pool for better resource management.
+Q: Can javax.sql.DataSource.getConnection() be used in the above unavailable scenarios of java.sql.DriverManager.getConnection()?",A: Yes
+"API Knowledge:
+The available scenarios of javax.jms.QueueSender.send(): need to send messages to a JMS queue for asynchronous processing.
+The unavailable scenarios of javax.mail.Transport.send(): need to send messages to a messaging system that is not email-based.
+Q: Can javax.jms.QueueSender.send() be used in the above unavailable scenarios of javax.mail.Transport.send()?",A: No

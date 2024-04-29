@@ -1,0 +1,17 @@
+user,assistant
+"API Knowledge:
+java.net.URL.getFile is used to get the file name of the URL.
+java.net.URL.getPath is used to get the path of the URL.
+Q: Based on the API knowledge above, do java.net.URL.getFile and java.net.URL.getPath have similar usage?",A: Yes
+"API Knowledge:
+java.util.Scanner.nextInt() is used to read a int value from the input.
+java.util.Scanner.nextLine() is used to read a line of text from the input.
+Q: Based on the API knowledge above, do java.util.Scanner.nextInt() and java.util.Scanner.nextLine() have similar usage?",A: Yes
+"API Knowledge:
+java.lang.Thread.join() allows one thread to wait for the completion of another thread.
+java.lang.Thread.isAlive() determines whether a thread is still running or not.
+Q: Based on the API knowledge above, do java.lang.Thread.join() and java.lang.Thread.isAlive() have similar usage?",A: No
+"API Knowledge:
+java.util.Collections.sort is a method used to sort the elements of a list, using a specified comparator.
+java.util.List.sort is a method used to sort the elements of a List in-place, using a specified Comparator.
+Q: Based on the API knowledge above, do java.util.Collections.sort and java.util.List.sort have primary similar usage?",A: Yes

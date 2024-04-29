@@ -1,0 +1,9 @@
+user,assistant
+"Natural language text: However, this is susceptible to a race condition: the path may be created by someone else between the Stat call and the Mkdir call.
+API Non-FQNs: Stat; Mkdir",API FQNs: os.Stat; os.Mkdir
+"Natural language text: According to your edits/comments: if you want the 2 running SayHello() functions to print """"mixed"""" numbers randomly: you have no guarantee to observe such behaviour. Again, see the aforementioned answer for more details. The Go Memory Model only guarantees that certain events happen before other events, you have no guarantee how 2 concurrent goroutines are executed.
+API Non-FQNs: SayHello()",API FQNs: None
+"Natural language text: IF you can be certain Get() will not produce error for certain input values, you can create a helper Must() function which would not return the error but raise a runtime panic if it still occurs:
+API Non-FQNs: Get; Must; runtime; panic",API FQNs: None
+"Natural language text: bufio.ReadString('\n') isn't fully equivalent to ReadLine because ReadString is unable to handle the case when the last line of a file does not end with the newline character.
+API Non-FQNs: bufio.ReadString(); ReadLine; ReadString",API FQNs: bufio.ReadString; bufio.ReadLine; bufio.ReadString

@@ -1,0 +1,9 @@
+user,assistant
+"Natural Language Text: FileOutputStream is to write primitive types of data, while FileWriter is to write character-oriented data.","API FQNs: java.io.FileOutputStream; java.io.FileWriter
+API Pairs: (java.io.FileOutputStream; java.io.FileWriter)"
+"Natural language Text: In practice, the java.util.Random class is often preferable to java.lang.Math.random().","API FQNs: java.util.Random; java.lang.Math.random()
+API Pairs: (java.util.Random, java.lang.Math.random())"
+Natural language text: String.contentEquals() compares the content of the String with the content of any CharSequence (available since Java 1.5).,"API FQNs: java.lang.String; java.lang.String.contentEquals(); java.lang.CharSequence
+API Pairs: (java.lang.String, java.lang.String.contentEquals()); (java.lang.String, java.lang.CharSequence); (java.lang.String, java.lang.CharSequence)"
+"Natural language text: Yes, you can create the array using Array#newInstance() method.","API FQNs: java.lang.reflect.Array.newInstance()
+API Pairs: None"

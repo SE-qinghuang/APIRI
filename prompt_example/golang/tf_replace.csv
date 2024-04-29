@@ -1,0 +1,17 @@
+user,assistant
+"API Knowledge:
+The available scenarios of strings.Replace: need to replace a specific number of occurrences in a string.
+The unavailable scenarios of strings.ReplaceAll: need to replace a limited number of occurrences in a string.
+Claim: strings.Replace() can be used in the above unavailable scenarios of strings.ReplaceAll().",Answer: Correct
+"API Knowledge:
+The available scenarios of bufio.NewScanner: need to read and tokenize input line by line.
+The unavailable scenarios of bufio.NewReader: need simple, tokenized input without requiring control over buffering.
+Claim: bufio.NewScanner() Can be used in the above unavailable scenarios of bufio.NewReader().",Answer: Incorrect
+"API Knowledge:
+The available scenarios of io.WriteString: need to write a simple string to a writer.
+The unavailable scenarios of fmt.Fprint: need to write a simple string without formatting.
+Claim: io.WriteString() Can be used in the above unavailable scenarios of fmt.Fprint().",Answer: Correct
+"API Knowledge:
+The available scenarios of ioutil.ReadFile: need to read the entire content of a file into memory.
+The unavailable scenarios of os.ReadFile: there are no scenarios where os.ReadFile cannot be used in place of ioutil.ReadFile.
+Claim: ioutil.ReadFile Can be used in the above unavailable scenarios of os.ReadFile.",Answer: Incorrect

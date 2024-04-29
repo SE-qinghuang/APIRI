@@ -1,0 +1,17 @@
+user,assistant
+"API Text:
+Summary arraylist with arraydeque are preferable in many more use-cases than linkedlist. If you're not sure — just start with arrayList.","Relations:
+(java.util.arraylist, java.util.arraydeque) : function similarity, behavior difference, efficiency comparison
+(java.util.arraydeque, java.util.linkedlist): function similarity, behavior difference, efficiency comparison
+(java.util.arraylist, java.util.linkedlist): function similarity, behavior difference, efficiency comparison"
+"API Text:
+The higherentry() does the opposite of the lowerentry(), meaning higherentry() returns a key-value mapping associated with the least key strictly greater than the given key, or null if there is no such key.","Relations:
+(java.treemap.higherentry, java.treemap.lowerentry): function similarity, behavior difference, function replace"
+"API text:
+A good example where composition would've been a lot better than inheritance is java Stack, which currently extends java Vector. This is now considered a blunder. A stack ""is-NOT-a"" vector; you should not be allowed to insert and remove elements arbitrarily. It should've been composition instead.","Relations:
+(java.util.stack, java.util.vector): function similarity, behavior difference, function replace, efficiency comparison"
+"API text:
+You can now simply do Instant.parse(""2015-04-28T14:23:38.521Z"") and get the correct thing now, especially since you should be using Instant instead of the broken java.util.Date with the most recent versions of Java.","Relations:
+(java.time.instant.parse, java.time.instant): function collaboration, logic constraint
+(java.time.instant.parse, java.util.date): none
+(java.time.instant, java.util.date): function similarity, behavior difference, function replace, efficiency comparison, type conversion"

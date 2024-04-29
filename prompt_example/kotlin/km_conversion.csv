@@ -1,0 +1,5 @@
+user,assistant
+Q: What data types can kotlin.Int be converted to?,A: The kotlin.Int type can be converted to the following data types: 1) Long; 2) Float; 3) Double; 4) String; 5) BigInteger (for large integer operations)
+Q: What data types can kotlin.String be converted to?,A: The kotlin.String type can be converted to the following data types: 1) Int; 2) Long; 3) Float; 4) Double; 5) ByteArray; 6) List<Char>
+Q: What data types can kotlin.collections.List<T> be converted to?,"A: The kotlin.collections.List<T> class can be converted to the following data types: 1) MutableList<T>; 2) Set<T>; 3) Array<T>; 4) Map<K, V> (given a transformation); 5) String (through joining operations)"
+Q: What data types can kotlin.Array<T> be converted to?,"A: The kotlin.Array<T> class can be converted to the following data types: 1) List<T>; 2) Set<T>; 3) MutableArray<T>; 4) ByteArray, CharArray, IntArray, etc. (for primitive types); 5) String (through joining operations)"

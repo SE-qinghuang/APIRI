@@ -1,0 +1,25 @@
+user,assistant
+"API Knowledge:
+sync.Mutex.Lock() in Go is used to acquire a lock on a mutex to ensure mutual exclusion in a concurrent program.
+sync.Mutex.Unlock() in Go is used to release a lock on a mutex that was previously acquired.
+Before using sync.Mutex.Lock(): you should consider whether your code section needs to be protected against concurrent access. After using sync.Mutex.Lock(): perform the operations that need mutual exclusion.
+Before using sync.Mutex.Unlock(): ensure that the operations needing mutual exclusion have been completed. After using sync.Mutex.Unlock(): the lock is released, allowing other goroutines to acquire the lock.
+Claim: Based on the knowledge above, there is a logical order when using sync.Mutex.Lock() and sync.Mutex.Unlock().",Answer: Correct
+"API Knowledge:
+http.NewRequest() in Go is used to create a new HTTP request with a given method, URL, and body.
+http.Client.Do() in Go is used to send an HTTP request and return an HTTP response.
+Before using http.NewRequest(): you should know the URL you want to request and the HTTP method to use. After using http.NewRequest(): prepare the request, including headers if necessary.
+Before using http.Client.Do(): ensure that the HTTP request is properly constructed. After using http.Client.Do(): handle the response, including reading the response body and closing it.
+Claim: Based on the knowledge above, there is a logical order when using http.NewRequest() and http.Client.Do().",Answer: Correct
+"API Knowledge:
+kotlin.system.exitProcess() in Kotlin is used to terminate the current process and return a specified exit code to the operating system.
+kotlin.collections.List.indexOf() in Kotlin is used to find the index of the first occurrence of a specified element in the list, or -1 if the element is not present.
+Before using kotlin.system.exitProcess(): decide on the exit code you want to return to the operating system. After using kotlin.system.exitProcess(): the process is terminated, and no further code is executed.
+Before using kotlin.collections.List.indexOf(): ensure that you have the list and the element whose index you want to find. After using kotlin.collections.List.indexOf(): you have the index of the first occurrence of the specified element in the list or -1 if it's not found.
+Claim: Based on the knowledge above, there is a logical order when using kotlin.system.exitProcess() and kotlin.collections.List.indexOf().",Answer: Incorrect
+"API Knowledge:
+kotlin.io.println() in Kotlin is used for printing a line to the standard output stream.
+kotlin.collections.MutableList.clear() in Kotlin is used to remove all elements from the mutable list.
+Before using kotlin.io.println(): decide on the message or data you want to print. After using kotlin.io.println(): the specified message or data is printed to the standard output.
+Before using kotlin.collections.MutableList.clear(): ensure that you have a mutable list from which you want to remove all elements. After using kotlin.collections.MutableList.clear(): the mutable list is empty.
+Claim: Based on the knowledge above, there is a logical order when using kotlin.io.println() and kotlin.collections.MutableList.clear().",Answer: Incorrect

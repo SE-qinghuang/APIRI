@@ -1,0 +1,5 @@
+user,assistant
+Q: What tasks can java.io.DataInputStream accomplish?,A: java.io.DataInputStream can accomplish the following tasks: 1) Reading Primitive Data Types; 2) Reading Strings; 3) Reading Bytes; 4) Reading Other Primitive Types
+Q: What tasks can java.io.BufferReader accomplish?,A: java.io.BufferReader can accomplish the following tasks: 1) Reading Text Files; 2) Line-by-Line Reading; 3) Parsing Text Data; 4) Input Stream Wrapping; 5) Reading Console Input
+Q: What tasks can java.util.Treeset accomplish?,A: java.util.Treeset can accomplish the following tasks: 1) Sorted Set; 2) Adding and Removing Elements; 3) Finding Elements; 4) Navigating Elements
+Q: What tasks can java.lang.String accomplish?,A: java.lang.String can accomplish the following tasks: 1) String Creation and Manipulation; 2) String Comparison; 3) Regular Expressions; 4) Character Extraction

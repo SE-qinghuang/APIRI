@@ -1,0 +1,17 @@
+user,assistant
+"API Knowledge:
+fmt.Println is used to print data to the standard output (usually the console) followed by a newline character.
+fmt.Printf is used for formatted printing to the standard output.
+Claim: Based on the API Knowledge above, fmt.Println and fmt.Printf have similar usage.",Answer: Correct
+"API Knowledge:
+io.Copy is to copy data from a source to a destination.
+io.CopyN is used for copying a specified number of bytes from a source to a destination.
+Claim: Based on the API Knowledge above, io.Copy and io.CopyN have similar usage.",Answer: Correct
+"API Knowledge:
+io.Reader is used to read end of a stream of data.
+strings.HasSuffix is used to determine whether a string ends with a specified suffix.
+Claim: Based on the API Knowledge above, io.Reader and strings.HasSuffix have similar usage.",Answer: Incorrect
+"API Knowledge:
+strings.ToLower is primarily used to convert a string to lowercase.
+strings.ToUpper is primarily used to convert a string to uppercase.
+Claim: Based on the API Knowledge above, strings.ToLower and strings.ToUpper have similar usage.",Answer: Correct

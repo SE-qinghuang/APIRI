@@ -1,0 +1,5 @@
+user,assistant
+Q: When should I use javax.servlet.http.HttpServletResponse.sendRedirect()?,A: The available scenarios of javax.servlet.http.HttpServletResponse.sendRedirect(): need to redirect the client to a different URL.
+=Q: When should I use javax.persistence.Query.getResultList()?,A: The available scenarios of javax.persistence.Query.getResultList(): want to retrieve a list of results from a query execution against a database.
+Q: When should I use javax.mail.Transport.send()?,A: The available scenarios of javax.mail.Transport.send(): need to send an email message from your application.
+Q: When should I use javax.xml.xpath.XPath.evaluate()?,A: The available scenarios of javax.xml.xpath.XPath.evaluate(): need to extract information from an XML document using an XPath expression.

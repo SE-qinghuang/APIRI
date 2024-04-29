@@ -1,0 +1,5 @@
+user,assistant
+Q: When should i not use http.Get?,"A: The unavailable scenarios of http.Get: when you need to send data to the server (e.g., form submission), require custom headers in your request, or need to use a different HTTP method like POST, PUT, DELETE, etc."
+Q: When should i not use io.Reader?,"A: The unavailable scenarios of io.Reader: when you need to write data or require operations other than reading, such as seeking to a specific position in the data stream or needing random access to the data."
+Q: When should i not use http.Post?,"A: The unavailable scenarios of http.Post: when you need to make a request using a different HTTP method (GET, PUT, DELETE, etc.), or when you need to read from the server without sending data."
+Q: When should i not use strings.Replace?,"A: The unavailable scenarios of strings.Replace: when you need to perform complex pattern matching or regular expression replacements, as it only supports simple substring replacement."

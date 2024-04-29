@@ -1,0 +1,25 @@
+user,assistant
+"API Knowledge:
+The kotlin.String class can be converted to the following data types:
+1) Int; 2) Double; 3) Boolean; 4) Long; 5) Float; 6) Char
+The kotlin.Int class can be converted to the following data types:
+1) String; 2) Long; 3) Float; 4) Double
+Claim: Based on the above knowledge, the data types of kotlin.String and kotlin.Int can be converted to each other.",Answer: Correct
+"API Knowledge:
+The kotlin.collections.List<T> interface can be converted to the following data types:
+1) MutableList<T>; 2) ArrayList<T>; 3) LinkedList<T>; 4) Set<T>
+The kotlin.Array<T> class can be converted to the following data types:
+1) List<T>; 2) MutableList<T>; 3) Set<T>; 4) MutableSet<T>
+Claim: Based on the above knowledge, the data types of kotlin.collections.List<T> and kotlin.Array<T> can be converted to each other.",Answer: Correct
+"API Knowledge:
+The kotlin.text.Regex class can be converted to the following data types:
+1) String
+The kotlin.String class can be converted to the following data types:
+1) Regex; 2) Int; 3) Double; 4) Boolean; 5) Long; 6) Float; 7) Char
+Claim: Based on the above knowledge, the data types of kotlin.text.Regex and kotlin.String be converted to each other.",Answer: Incorrect
+"API Knowledge:
+The kotlin.collections.Map<K, V> interface can be converted to the following data types:
+1) MutableMap<K, V>
+The kotlin.collections.List<T> interface can be converted to the following data types:
+1) MutableList<T>; 2) ArrayList<T>; 3) LinkedList<T>; 4) Set<T>; 5) MutableSet<T>
+Claim: Based on the above knowledge, the data types of kotlin.collections.Map<K, V> and kotlin.collections.List<T> be converted to each other.",Answer: Incorrect

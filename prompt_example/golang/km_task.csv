@@ -1,0 +1,5 @@
+user,assistant
+Q: What tasks can http.Get accomplish?,A: http.Get can accomplish the following tasks: 1) Sending an HTTP GET request to a specified URL; 2) Receiving the server's response to the request.
+Q: What tasks can io.Reader accomplish?,"A: io.Reader can accomplish the following tasks: 1) Reading bytes from any data stream (e.g., files, network connections); 2) Blocking until input is available; 3) Abstracting the source of data."
+Q: What tasks can http.Post accomplish?,A: http.Post can accomplish the following tasks: 1) Sending an HTTP POST request to a specified URL; 2) Submitting form data or posting JSON/XML data to a server; 3) Receiving the server's response.
+Q: What tasks can strings.Replace accomplish?,A: strings.Replace can accomplish the following tasks: 1) Replacing all or specific numbers of occurrences of a substring in a string with another substring; 2) Modifying strings for various text manipulation tasks.

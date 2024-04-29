@@ -1,0 +1,17 @@
+user,assistant
+"API Knowledge:
+java.util.ArrayList.add() is used to add an element to the end of the list.
+java.util.LinkedList.add() is used to add an element to the end of the list.
+Q: Based on the API knowledge above, do java.util.ArrayList.add() and java.util.LinkedList.add() have similar usage?",A: Yes
+"API Knowledge:
+java.lang.String.substring() is used to create a new string that is a substring of this string.
+java.lang.StringBuilder.substring() is used to create a new string that is a substring of this string.
+Q: Based on the API knowledge above, do java.lang.String.substring() and java.lang.StringBuilder.substring() have similar usage?",A: Yes
+"API Knowledge:
+java.util.HashSet.add() is used to add a specific element to the set if it is not already present.
+java.util.LinkedList.get() is used to return the element at the specified position in this list.
+Q: Based on the API knowledge above, do java.util.HashSet.add() and java.util.LinkedList.get() have similar usage?",A: No
+"API Knowledge:
+java.util.HashMap.put() is used to associate a specific value with a specific key in this map.
+java.util.Hashtable.put() is used to associate a specific value with a specific key in this hashtable.
+Q: Based on the API knowledge above, do java.util.HashMap.put() and java.util.Hashtable.put() have similar usage?",A: Yes

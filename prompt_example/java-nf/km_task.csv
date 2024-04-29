@@ -1,0 +1,5 @@
+user,assistant
+Q: What tasks can javax.servlet.http.HttpServletRequest accomplish?,A: javax.servlet.http.HttpServletRequest can accomplish the following tasks: 1) Retrieving Query Parameters; 2) Parsing Form Data; 3) Handling HTTP Headers; 4) Managing Sessions; 5) Supporting Servlet Authentication.
+Q: What tasks can javax.persistence.EntityManager accomplish?,A: javax.persistence.EntityManager can accomplish the following tasks: 1) Persisting Entities; 2) Managing Entity Transactions; 3) Querying the Database; 4) Entity Lifecycle Management; 5) Caching for Performance.
+Q: What tasks can javax.mail.Transport accomplish?,"A: javax.mail.Transport can accomplish the following tasks: 1) Sending Emails; 2) Authenticating to Mail Servers; 3) Handling Email Protocols (SMTP, SMTPS); 4) Supporting Attachments and MIME Types."
+Q: What tasks can javax.xml.xpath.XPath accomplish?,A: javax.xml.xpath.XPath can accomplish the following tasks: 1) Evaluating XPath Expressions; 2) Navigating through XML Documents; 3) Extracting Information from XML; 4) Supporting Namespaces in XML Queries.

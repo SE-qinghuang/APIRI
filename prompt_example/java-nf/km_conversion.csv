@@ -1,0 +1,5 @@
+user,assistant
+Q: What data types can javax.xml.datatype.XMLGregorianCalendar be converted to?,A: javax.xml.datatype.XMLGregorianCalendar class can be converted to the following data types: 1) String; 2) GregorianCalendar; 3) java.util.Date; 4) java.time.LocalDate; 5) java.time.ZonedDateTime
+Q: What data types can javax.sql.RowSet be converted to?,A: javax.sql.RowSet class can be converted to the following data types: 1) CachedRowSet; 2) JdbcRowSet; 3) WebRowSet; 4) FilteredRowSet; 5) JoinRowSet
+Q: What data types can javax.jms.Message be converted to?,A: javax.jms.Message class can be converted to the following data types: 1) TextMessage; 2) BytesMessage; 3) MapMessage; 4) StreamMessage; 5) ObjectMessage
+Q: What data types can javax.mail.internet.MimeMessage be converted to?,A: javax.mail.internet.MimeMessage class can be converted to the following data types: 1) String (as MIME format); 2) InputStream; 3) javax.mail.Message; 4) javax.activation.DataHandler

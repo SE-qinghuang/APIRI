@@ -1,0 +1,5 @@
+user,assistant
+Q: What is the primary usage of kotlin.collections.List.indexOf?,A: kotlin.collections.List.indexOf is used to find the index of the first occurrence of a specific element in the list.
+Q: What is the primary usage of kotlin.collections.List.lastIndexOf?,A: kotlin.collections.List.lastIndexOf is used to find the index of the last occurrence of a specific element in the list.
+Q: What is the primary usage of kotlin.text.StringBuilder.append?,"A: kotlin.text.StringBuilder.append is used to append the specified string or character sequence to the existing contents of the StringBuilder, allowing for efficient string concatenation."
+Q: What is the primary usage of kotlin.text.StringBuilder.appendLine?,"A: kotlin.text.StringBuilder.appendLine is used to append the specified string or character sequence to the StringBuilder followed by a line terminator, facilitating the construction of multiline strings."

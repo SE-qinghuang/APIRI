@@ -1,0 +1,17 @@
+user,assistant
+"API Knowledge:
+The available scenarios of java.lang.Math.min(): need to determine the minimum of two integer values.
+The unavailable scenarios of java.lang.Integer.min(): there are none; it serves the same purpose as java.lang.Math.min().
+Q: Can java.lang.Integer.min() be used in the above unavailable scenarios of java.lang.Math.min()?",A: Yes
+"API Knowledge:
+The available scenarios of java.util.Vector.addElement(): need to add an element to the Vector.
+The unavailable scenarios of java.util.LinkedList.get(): need to add an element to a list.
+Q: Can java.util.Vector.addElement() be used in the above unavailable scenarios of java.util.LinkedList.get()?",A: No
+"API Knowledge:
+The available scenarios of java.util.Hashtable: need a thread-safe key-value storage that does not allow nulls.
+The unavailable scenarios of java.util.HashMap: need a thread-safe key-value storage without external synchronization.
+Q: Can java.util.HashMap be used in the above unavailable scenarios of java.util.Hashtable?",A: Yes
+"API Knowledge:
+The available scenarios of java.lang.System.arraycopy(): need to copy elements from one array to another.
+The unavailable scenarios of java.util.HashMap.put(): need to copy array elements.
+Q: Can java.lang.System.arraycopy() be used in the above unavailable scenarios of java.util.HashMap.put()?",A: No

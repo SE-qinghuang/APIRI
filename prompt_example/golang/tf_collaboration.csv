@@ -1,0 +1,25 @@
+user,assistant
+"API Knowledge:
+net.Listen can accomplish the following tasks:
+1) Listening on a network address; 2) Accepting incoming network connections;
+http.Serve can accomplish the following tasks:
+1) Serving HTTP requests on a network connection; 2) Handling HTTP requests with specified handler;
+Claim: Based on the knowledge above, there a task scenario that requires net.Listen and http.Serve to cooperate.",Answer: Correct
+"API Knowledge:
+io.Reader can accomplish the following tasks:
+1) Reading bytes into a buffer; 2) Reading data from various sources;
+io.Writer can accomplish the following tasks:
+1) Writing bytes from a buffer; 2) Writing data to various destinations;
+Claim: Based on the knowledge above, there a task scenario that requires io.Reader and io.Writer to cooperate.",Answer: Correct
+"API Knowledge:
+reflect.StructTag.Lookup can accomplish the following tasks:
+1) Retrieving the value of a specific tag associated with a struct field; 2) Accessing metadata about a struct field, such as its name or type.
+reflect.StructTag.Get can accomplish the following tasks:
+1) Retrieving the value of a specific tag associated with a struct field; 2) Accessing metadata about a struct field, such as its name or type.
+Claim: Based on the knowledge above, there a task scenario that requires reflect.StructTag.Lookup and reflect.StructTag.Get to cooperate.",Answer: InCorrect
+"API Knowledge:
+bufio.NewScanner can accomplish the following tasks:
+1) Creating a scanner to read text data; 2) Tokenizing text input;
+net.Listen can accomplish the following tasks:
+1)Listening on a network address; 2) Accepting incoming network connections;
+Claim: Based on the knowledge above, there a task scenario that requires bufio.NewScanner and for net.Listen to cooperate.",Answer: Incorrect

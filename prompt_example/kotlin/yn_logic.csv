@@ -1,0 +1,25 @@
+user,assistant
+"API Knowledge:
+kotlin.io.File.createTempFile() in Kotlin is used to create a new temporary file.
+kotlin.io.File.deleteOnExit() in Kotlin is used to mark the file for deletion when the JVM exits.
+Before using kotlin.io.File.createTempFile(): decide on the prefix, suffix, and directory for the temporary file. After using kotlin.io.File.createTempFile(): you have a reference to the newly created temporary file.
+Before using kotlin.io.File.deleteOnExit(): ensure that you no longer need the file after the JVM exits. After using kotlin.io.File.deleteOnExit(): the file will be deleted when the JVM exits.
+Q: Based on the API knowledge above, is there a logical order when using kotlin.io.File.createTempFile() and kotlin.io.File.deleteOnExit()?",A: Yes
+"API Knowledge:
+kotlin.collections.MutableList.add() in Kotlin is used to add an element to the mutable list.
+kotlin.collections.MutableList.sort() in Kotlin is used to sort the elements of the mutable list.
+Before using kotlin.collections.MutableList.add(): have the element ready that you want to add to the list. After using kotlin.collections.MutableList.add(): the element is added to the list.
+Before using kotlin.collections.MutableList.sort(): ensure that the list is not empty and contains sortable elements. After using kotlin.collections.MutableList.sort(): the elements in the list are sorted.
+Q: Based on the API knowledge above, is there a logical order when using kotlin.collections.MutableList.add() and kotlin.collections.MutableList.sort()?",A: Yes
+"API Knowledge:
+kotlin.system.exitProcess() in Kotlin is used to terminate the current process and return a specified exit code to the operating system.
+kotlin.collections.List.indexOf() in Kotlin is used to find the index of the first occurrence of a specified element in the list, or -1 if the element is not present.
+Before using kotlin.system.exitProcess(): decide on the exit code you want to return to the operating system. After using kotlin.system.exitProcess(): the process is terminated, and no further code is executed.
+Before using kotlin.collections.List.indexOf(): ensure that you have the list and the element whose index you want to find. After using kotlin.collections.List.indexOf(): you have the index of the first occurrence of the specified element in the list or -1 if it's not found.
+Q: Based on the API knowledge above, is there a logical order when using kotlin.system.exitProcess() and kotlin.collections.List.indexOf()?",A: No
+"API Knowledge:
+kotlin.io.println() in Kotlin is used for printing a line to the standard output stream.
+kotlin.collections.MutableList.clear() in Kotlin is used to remove all elements from the mutable list.
+Before using kotlin.io.println(): decide on the message or data you want to print. After using kotlin.io.println(): the specified message or data is printed to the standard output.
+Before using kotlin.collections.MutableList.clear(): ensure that you have a mutable list from which you want to remove all elements. After using kotlin.collections.MutableList.clear(): the mutable list is empty.
+Q: Based on the API knowledge above, is there a logical order when using kotlin.io.println() and kotlin.collections.MutableList.clear()?",A: No

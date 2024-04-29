@@ -1,0 +1,17 @@
+user,assistant
+"API Knowledge:
+The available scenarios of kotlin.collections.listOf: need to create a list of elements that won't change.
+The unavailable scenarios of kotlin.collections.mutableListOf: when you don't need to modify the list after creation. If your list is set at creation and does not require changes, using listOf would be more appropriate as it is immutable and can offer better performance and safety guarantees.
+Claim: kotlin.collections.listOf() can be used in the above unavailable scenarios of kotlin.collections.mutableListOf().",Answer: Correct
+"API Knowledge:
+The available scenarios of kotlin.text.replace: need to replace all occurrences of a substring in a string.
+The unavailable scenarios of kotlin.text.replaceFirst: need to replace more than the first occurrence of a substring in a string.
+Claim: kotlin.text.replace() can be used in the above unavailable scenarios of kotlin.text.replaceFirst().",Answer: Correct
+"API Knowledge:
+The available scenarios of kotlin.system.measureTimeMillis: when you want to measure the execution time of specific code segments for performance analysis or optimization.
+The unavailable scenarios of kotlin.system.exitProcess: for measuring execution time or performance analysis. This function is specifically for terminating the process and does not relate to performance measurement.
+Claim: kotlin.system.measureTimeMillis() can be used in the above unavailable scenarios of kotlin.system.exitProcess().",Answer: Incorrect
+"API Knowledge:
+The available scenarios of kotlin.collections.HashMap: need to create a map without concern for the order of entries.
+The unavailable scenarios of kotlin.collections.LinkedHashMap: need a map that does not maintain insertion order.
+Claim: kotlin.collections.HashMap can be used in the above unavailable scenarios of kotlin.collections.LinkedHashMap.",Answer: Correct
