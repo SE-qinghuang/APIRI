@@ -1,7 +1,7 @@
 # APIRI
 - Code for ``Let’s Discover More API Relations: A Large Language Model-based AI Chain for Unsupervised API Relation Inference``
 - Please contact ybsun@jxnu.edu.cn for questions and suggestions.
-- Data_link: https://drive.google.com/file/d/11l45PtZzabQCmOVBt91JZ35MY7F1q-5e/view?usp=sharing
+- Data_Link: https://drive.google.com/file/d/11l45PtZzabQCmOVBt91JZ35MY7F1q-5e/view?usp=sharing
 
 ## Update
 - [2024-04-28] update the main code.
